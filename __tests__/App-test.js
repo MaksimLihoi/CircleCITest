@@ -15,3 +15,9 @@ it('Renders Message', async () => {
   expect(getByTestId('printed-message').props.children).toBe('Hello Tester');
   expect(toJSON()).toMatchSnapshot();
 });
+
+it('Renders label', () => {
+  const {getByTestId} = render(<App />);
+
+  expect(getByTestId('new-text').props.children).toBe('Some new text');
+});

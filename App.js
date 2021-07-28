@@ -19,7 +19,7 @@ const App = () => {
           {message}
         </Text>
       )}
-      <Text>Some new text</Text>
+      <Text testID="new-text">Some new text</Text>
     </View>
   );
 };
