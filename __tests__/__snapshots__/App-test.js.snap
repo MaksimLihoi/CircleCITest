@@ -56,5 +56,10 @@ exports[`Renders Message 1`] = `
   >
     Hello Tester
   </Text>
+  <Text
+    testID="new-text"
+  >
+    Some new text
+  </Text>
 </View>
 `;
