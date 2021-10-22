@@ -61,5 +61,8 @@ exports[`Renders Message 1`] = `
   >
     Some new text
   </Text>
+  <Text>
+    Some new text 2
+  </Text>
 </View>
 `;

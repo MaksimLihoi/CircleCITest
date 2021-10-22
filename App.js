@@ -20,7 +20,7 @@ const App = () => {
         </Text>
       )}
       <Text testID="new-text">Some new text</Text>
-      <Text testID="new-text">Some new text 2</Text>
+      <Text>Some new text 2</Text>
     </View>
   );
 };
